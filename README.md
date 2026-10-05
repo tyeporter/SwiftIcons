@@ -19,7 +19,7 @@ A vector icon toolkit that brings popular open-source design system icons to App
 
 ### Xcode
 
-To add `SwiftColors` to an existing Xcode project:
+To add `SwiftIcons` to an existing Xcode project:
 1. Go to **File > Add Package Dependencies...**
 2. Paste the repository URL: `https://github.com/tyeporter/SwiftIcons.git`
 3. Select **Up to Next Major Version** and select your project as the target.
