@@ -29,7 +29,7 @@ To add `SwiftIcons` to an existing Xcode project:
 For installation with Swift Package Manager, simply add the following to your `Package.swift`:
 
 ```
-.package(url: "https://github.com/tyeporter/SwiftIcons.git", from: "0.1.0")
+.package(url: "https://github.com/tyeporter/SwiftIcons.git", from: "0.1.2")
 ```
 
 ## Usage
