@@ -50,9 +50,7 @@ struct SwiftIconsGenerator {
     }
 
 	static func sanitizeAndEscapeSVG(_ rawSvg: String) -> String {
-		var svg = rawSvg.replacingOccurrences(of: "<rect[^>]*fill=\"none\"[^>]*>", with: "", options: .regularExpression)
-
-		svg = svg.replacingOccurrences(of: "#000000", with: "currentColor")
+		var svg = rawSvg.replacingOccurrences(of: "#000000", with: "currentColor")
 		svg = svg.replacingOccurrences(of: "#000", with: "currentColor")
 
 		svg = svg.replacingOccurrences(of: "\n", with: "")
