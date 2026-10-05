@@ -17,6 +17,13 @@ public struct SwiftIcon: View {
 	private let icon: SwiftIconDescriptor
 	private let size: CGFloat?
 
+	@ScaledMetric(relativeTo: .body)
+	private var defaultSize: CGFloat = 20
+
+	var finalSize: CGFloat {
+		size ?? defaultSize
+	}
+
 	public init(_ icon: SwiftIconDescriptor, size: CGFloat? = nil) {
 		self.icon = icon
 		self.size = size
@@ -28,6 +35,6 @@ public struct SwiftIcon: View {
 				SVGView(string: icon.rawSVG)
 					.aspectRatio(1, contentMode: .fit)
 			}
-			.frame(width: size, height: size)
+			.frame(width: finalSize , height: finalSize)
 	}
 }
