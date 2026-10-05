@@ -1,0 +1,92 @@
+[
+	{
+		"system": "Lucide",
+		"version": 1.51,
+		"prefix": "lu",
+		"folderName": "Lucide"
+	},
+	{
+		"system": "Bootstrap",
+		"version": 1.31,
+		"prefix": "bs",
+		"folderName": "Bootstrap"
+	},
+	{
+		"system": "FontAwesome",
+		"version": 7.3,
+		"prefix": "fa",
+		"folderName": "FontAwesome/regular"
+	},
+	{
+		"system": "FontAwesome Brand",
+		"version": 7.3,
+		"prefix": "faBrand",
+		"folderName": "FontAwesome/brands"
+	},
+	{
+		"system": "FontAwesome Filled",
+		"version": 7.3,
+		"prefix": "faFilled",
+		"folderName": "FontAwesome/solid"
+	},
+	{
+		"system": "Phosphor",
+		"version": 2,
+		"prefix": "ph",
+		"folderName": "Phosphor/regular"
+	},
+	{
+		"system": "Phosphor Thin",
+		"version": 2,
+		"prefix": "ph",
+		"folderName": "Phosphor/thin"
+	},
+	{
+		"system": "Phosphor Light",
+		"version": 2,
+		"prefix": "ph",
+		"folderName": "Phosphor/light"
+	},
+	{
+		"system": "Phosphor Bold",
+		"version": 2,
+		"prefix": "ph",
+		"folderName": "Phosphor/bold"
+	},
+	{
+		"system": "Phosphor Duotone",
+		"version": 2,
+		"prefix": "ph",
+		"folderName": "Phosphor/duotone"
+	},
+	{
+		"system": "Tabler",
+		"version": 3.48,
+		"prefix": "tb",
+		"folderName": "Tabler/outline"
+	},
+	{
+		"system": "Tabler Filled",
+		"version": 3.48,
+		"prefix": "tbFilled",
+		"folderName": "Tabler/filled"
+	},
+	{
+		"system": "Feather",
+		"version": 4.29,
+		"prefix": "fi",
+		"folderName": "Feather"
+	},
+	{
+		"system": "Heroicons",
+		"version": 2.2,
+		"prefix": "hi",
+		"folderName": "Heroicons/outline"
+	},
+	{
+		"system": "Heroicons Filled",
+		"version": 2.2,
+		"prefix": "hiFilled",
+		"folderName": "Heroicons/solid"
+	}
+]
