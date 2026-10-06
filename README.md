@@ -29,7 +29,7 @@ To add `SwiftIcons` to an existing Xcode project:
 For installation with Swift Package Manager, simply add the following to your `Package.swift`:
 
 ```
-.package(url: "https://github.com/tyeporter/SwiftIcons.git", from: "0.1.2")
+.package(url: "https://github.com/tyeporter/SwiftIcons.git", from: "0.2.0")
 ```
 
 ## Usage
@@ -46,13 +46,31 @@ struct ContentView: View {
 	var body: some View {
 		VStack {
 			SwiftIcon(.tbBrandApple, size: 100)
-				.foregroundStyle(.linearGradient(
-					colors: [.blue, .purple],
-					startPoint: .topLeading,
-					endPoint: .bottomTrailing
-				))
+				.foregroundStyle(.black)
 		}
 		.padding()
+	}
+}
+```
+
+### Using in TabView
+
+To use `SwiftIcon` in `.tabItem` modifier, convert it to an `Image` using the `.toImage()` helper:
+
+```swift
+import SwiftUI
+import SwiftIcons
+
+struct ContentView: View {
+	var body: some View {
+		TabView {
+			...
+			SettingsView()
+				.tabItem {
+					SwiftIcon(.luSettings, size: 24).toImage()
+					Text("Settings")
+				}
+		}
 	}
 }
 ```
