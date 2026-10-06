@@ -18,6 +18,7 @@ enum SwiftIconSystem: String, Codable {
 	case phosphorLight = "Phosphor Light"
 	case phosphorBold = "Phosphor Bold"
 	case phosphorDuotone = "Phosphor Duotone"
+	case phosphorFilled = "Phosphor Filled"
 	case tabler = "Tabler"
 	case tablerFilled = "Tabler Filled"
 	case feather = "Feather"

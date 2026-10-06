@@ -60,6 +60,12 @@
 		"folderName": "Phosphor/duotone"
 	},
 	{
+		"system": "Phosphor Filled",
+		"version": 2,
+		"prefix": "ph",
+		"folderName": "Phosphor/fill"
+	},
+	{
 		"system": "Tabler",
 		"version": 3.48,
 		"prefix": "tb",
